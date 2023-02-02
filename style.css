@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+    font-weight: 900;
+    color: #141414;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+body {
+    background-image: url('https://www.pngkey.com/png/full/926-9264310_o-nex-um-sistema-completo-de-gesto.png'),
+        linear-gradient(110deg, #42fcae, #17151b);
+    background-size: 100vw, auto;
+    min-height: calc(100vh - 100px);
+    letter-spacing: -1px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Itim', cursive;
+}
+
+
+#table {
+    width: 500px;
+    height: 300px;
+    font-family: 'Itim', cursive;
+    margin-bottom: 1.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #ccc;
+    color: #3700ff;
+    overflow-y: auto;
+}
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    padding: 10%;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu {
+    justify-content: end;
+}
+
+.title-pages {
+    text-align: center;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-cadastro {
+    font-size: 26px;
+    font-family: 'Itim', cursive;
+}
+
+#btn-cadastro {
+    width: 11%;
+}
+
+.listar-produtos {
+    display: flex;
+    justify-content: end;
+}
+
+.form-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label-buscar {
+    font-size: 26px;
+    font-family: 'Itim', cursive;
+}
+
+#btn-buscar {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 2rem;
+    padding: 0 25px;
+}
